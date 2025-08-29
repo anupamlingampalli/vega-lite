@@ -1,0 +1,21 @@
+{
+  "name": "vega-lite-custom",
+  "displayName": "VegaLite Custom Viz",
+  "components": {
+    "viz": {
+      "script": "index.js"
+    }
+  },
+  "data": {
+    "tables": [
+      {
+        "id": "default",
+        "name": "Default",
+        "columns": [
+          { "id": "category", "name": "Category", "type": "DIMENSION" },
+          { "id": "value", "name": "Value", "type": "METRIC" }
+        ]
+      }
+    ]
+  }
+}
